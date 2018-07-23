@@ -1,0 +1,6 @@
+material elastic [ 
+name=steel
+nu=0.0
+E=1.0
+rho=1
+]

@@ -1,0 +1,41 @@
+{
+	"Username" : "alexandre",
+	"Dimension" : 2,
+	"Model":{
+		"ModelType" : "SolidMechanicsModel",
+		"Parameters" : {
+			"AnalysisMethod" : "_explicit_lumped_mass",
+			"TimeStep" : 0.025,
+			"EndStep" : 1000
+		}
+	},
+	"Material" : {
+		"MaterialType" : "elastic",
+		"name" : "steel",
+		"rho" : 1,
+    "E" : {
+    	"type" : "float", 
+    	"min" : 1.0,
+    	"max" : 4.0,
+    	"step": 0.5
+    },
+    "nu" : 0.0
+	},
+	"BoundaryConditions" : [{
+			"BCType" : "Dirichlet",
+			"Value": 0.0,
+			"Direction" : "X",
+			"on" : "XBlocked"
+		},
+		{
+			"BCType" : "Dirichlet",
+			"Direction" : "Y",
+			"Value" : 0.0,
+			"on" : "YBlocked"
+		}],
+	"InitialConditions" : {
+		"ICType" : "Sinusoidal",
+		"PulseWidth" : 1,
+		"Amplitude" : 0.01
+	}	
+}

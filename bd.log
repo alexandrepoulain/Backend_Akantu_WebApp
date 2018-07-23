@@ -1,0 +1,488 @@
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 logging : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 logging : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 logging : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 study : alexandreSolidMechanicsModel
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 study : [u'alexandreSolidMechanicsModel']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 study : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 host : localhost
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 host : ['localhost']
+DEBUG:                               updatePossibleHosts:    bdparser.py:68:          in
+DEBUG:                                 listPossibleHosts:    bdparser.py:30:          in
+DEBUG:                                      readConfFile:    bdparser.py:153:          in
+DEBUG:                                      readConfFile:    bdparser.py:154:          readConfFileList []
+DEBUG:                                      readConfFile:    bdparser.py:173:          loading file '/home/alexandre/.blackdynamite/localhost.bd'
+DEBUG:                                      readConfFile:    bdparser.py:188:          read parameters: '['--host', 'localhost', '--truerun', '--study', u'alexandreSolidMechanicsModel', '--yes', '--logging', '--user', 'alexandre', '--password', 'pw']'
+DEBUG:                                      readConfFile:    bdparser.py:189:          pre args : '{'password': 'pw', 'user': 'alexandre'}'
+DEBUG:                                   createParamsMap:    bdparser.py:238:          in
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 password : pw
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 password : ['pw']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 password : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 user : alexandre
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 user : ['alexandre']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 user : <type 'str'>
+DEBUG:                                      readConfFile:    bdparser.py:194:          out
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 host : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 BDconf : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 user : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 truerun : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 truerun : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 truerun : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 yes : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 yes : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 yes : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 password : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 list_parameters : False
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 list_parameters : [False]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 list_parameters : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 port : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 constraints : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 binary_operator : and
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 binary_operator : ['and']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 binary_operator : <type 'str'>
+DEBUG:                                 parseBDParameters:    bdparser.py:491:          addModuleAdmissibleParameters
+
+DEBUG:                    addModulesAdmissibleParameters:    bdparser.py:296:          in
+DEBUG:                    addModulesAdmissibleParameters:    bdparser.py:314:          {'binary_operator': <type 'str'>, 'logging': <type 'bool'>, 'study': <type 'str'>, 'port': <type 'int'>, 'host': <type 'str'>, 'user': <type 'str'>, 'truerun': <type 'bool'>, 'yes': <type 'bool'>, 'password': <type 'str'>, 'list_parameters': <type 'bool'>, 'BDconf': <type 'list'>, 'constraints': [<type 'str'>]}
+DEBUG:                                 parseBDParameters:    bdparser.py:493:          addModulesAdmissibleParametersForComplete
+
+DEBUG:         addModulesAdmissibleParametersForComplete:    bdparser.py:317:          in
+DEBUG:                                 parseBDParameters:    bdparser.py:499:          constructArgParser
+
+DEBUG:                                constructArgParser:    bdparser.py:371:          in
+DEBUG:                                   createParamsMap:    bdparser.py:238:          in
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 logging : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 logging : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 logging : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 study : alexandreSolidMechanicsModel
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 study : [u'alexandreSolidMechanicsModel']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 study : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 host : localhost
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 host : ['localhost']
+DEBUG:                               updatePossibleHosts:    bdparser.py:68:          in
+DEBUG:                                 listPossibleHosts:    bdparser.py:30:          in
+DEBUG:                                      readConfFile:    bdparser.py:153:          in
+DEBUG:                                      readConfFile:    bdparser.py:154:          readConfFileList ['localhost.bd']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 host : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 BDconf : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 user : alexandre
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 user : ['alexandre']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 user : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 truerun : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 truerun : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 truerun : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 yes : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 yes : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 yes : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 password : pw
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 password : ['pw']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 password : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 list_parameters : False
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 list_parameters : [False]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 list_parameters : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 port : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 constraints : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 binary_operator : and
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 binary_operator : ['and']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 binary_operator : <type 'str'>
+INFO:                                          __init__:        base.py:363:          {'logging': True, 'study': 'alexandreSolidMechanicsModel', 'host': 'localhost', 'user': 'alexandre', 'yes': True, 'password': 'pw', 'list_parameters': False, 'binary_operator': 'and'}
+DEBUG:                                      filterParams:    bdparser.py:606:          in
+INFO:                                          __init__:        base.py:366:          localhost
+DEBUG:                                          __init__:        base.py:371:          connection arguments: {'host': 'localhost', 'password': 'pw', 'user': 'alexandre', 'dbname': 'blackdynamite'}
+DEBUG:                                          __init__:        base.py:374:          connected to base
+DEBUG:                                 validate_question:    bdparser.py:581:          in
+INFO:                                 validate_question:    bdparser.py:597:          Are you sure you want to drop the schema named 'alexandre_alexandreSolidMechanicsModel'? (y/N) Forced Y
+DEBUG:                                       createTable:        base.py:111:          CREATE TABLE alexandre_alexandreSolidMechanicsModel.jobs ( id SERIAL PRIMARY KEY,username TEXT  NOT NULL,dim INTEGER  NOT NULL,modeltype TEXT  NOT NULL,material_steel_e DOUBLE PRECISION  NOT NULL);
+DEBUG:                                       createTable:        base.py:111:          CREATE TABLE alexandre_alexandreSolidMechanicsModel.runs ( id SERIAL PRIMARY KEY,machine_name TEXT  NOT NULL,job_id INTEGER  NOT NULL,exec TEXT  NOT NULL,wait_id INTEGER ,nproc INTEGER  NOT NULL,state TEXT ,run_name TEXT  NOT NULL,compiler TEXT  NOT NULL,start_time TIMESTAMP ,run_path TEXT ,FOREIGN KEY (job_id) REFERENCES alexandre_alexandreSolidMechanicsModel.jobs);
+DEBUG:                                            commit:        base.py:242:          commiting changes to base
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+DEBUG:                              getMatchingCondition: constraints.py:92:          (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          [u'alexandre', 2, u'SolidMechanicsModel', 1.0]
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.jobs WHERE (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                                            select:    selector.py:86:          [u'alexandre', 2, u'SolidMechanicsModel', 1.0]
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.job.Job'>]
+INFO:                              createParameterSpace:        base.py:188:          insert job #1: {'username': u'alexandre', 'dim': 2, 'modeltype': u'SolidMechanicsModel', u'material_steel_e': 1.0}
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+DEBUG:                              getMatchingCondition: constraints.py:92:          (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          [u'alexandre', 2, u'SolidMechanicsModel', 1.5]
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.jobs WHERE (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                                            select:    selector.py:86:          [u'alexandre', 2, u'SolidMechanicsModel', 1.5]
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.job.Job'>]
+INFO:                              createParameterSpace:        base.py:188:          insert job #2: {'username': u'alexandre', 'dim': 2, 'modeltype': u'SolidMechanicsModel', u'material_steel_e': 1.5}
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+DEBUG:                              getMatchingCondition: constraints.py:92:          (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          [u'alexandre', 2, u'SolidMechanicsModel', 2.0]
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.jobs WHERE (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                                            select:    selector.py:86:          [u'alexandre', 2, u'SolidMechanicsModel', 2.0]
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.job.Job'>]
+INFO:                              createParameterSpace:        base.py:188:          insert job #3: {'username': u'alexandre', 'dim': 2, 'modeltype': u'SolidMechanicsModel', u'material_steel_e': 2.0}
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+DEBUG:                              getMatchingCondition: constraints.py:92:          (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          [u'alexandre', 2, u'SolidMechanicsModel', 2.5]
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.jobs WHERE (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                                            select:    selector.py:86:          [u'alexandre', 2, u'SolidMechanicsModel', 2.5]
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.job.Job'>]
+INFO:                              createParameterSpace:        base.py:188:          insert job #4: {'username': u'alexandre', 'dim': 2, 'modeltype': u'SolidMechanicsModel', u'material_steel_e': 2.5}
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+DEBUG:                              getMatchingCondition: constraints.py:92:          (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          [u'alexandre', 2, u'SolidMechanicsModel', 3.0]
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.jobs WHERE (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                                            select:    selector.py:86:          [u'alexandre', 2, u'SolidMechanicsModel', 3.0]
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.job.Job'>]
+INFO:                              createParameterSpace:        base.py:188:          insert job #5: {'username': u'alexandre', 'dim': 2, 'modeltype': u'SolidMechanicsModel', u'material_steel_e': 3.0}
+INFO:                              createParameterSpace:        base.py:166:          <type 'list'>
+DEBUG:                              getMatchingCondition: constraints.py:92:          (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          [u'alexandre', 2, u'SolidMechanicsModel', 3.5]
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.jobs WHERE (jobs.username = %s) and (jobs.dim = %s) and (jobs.modeltype = %s) and (jobs.material_steel_e = %s)
+DEBUG:                                            select:    selector.py:86:          [u'alexandre', 2, u'SolidMechanicsModel', 3.5]
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.job.Job'>]
+INFO:                              createParameterSpace:        base.py:188:          insert job #6: {'username': u'alexandre', 'dim': 2, 'modeltype': u'SolidMechanicsModel', u'material_steel_e': 3.5}
+DEBUG:                                            commit:        base.py:242:          commiting changes to base
+DEBUG:                                            commit:        base.py:242:          commiting changes to base
+DEBUG:                                            commit:        base.py:242:          commiting changes to base
+DEBUG:                                            commit:        base.py:242:          commiting changes to base
+DEBUG:                                          __init__:    bdparser.py:628:          in
+DEBUG:                                          __init__:    bdparser.py:512:          in
+DEBUG:                                 parseBDParameters:    bdparser.py:622:          in
+DEBUG:                                 parseBDParameters:    bdparser.py:471:          in
+DEBUG:                                 parseBDParameters:    bdparser.py:479:          program called with 12 args ['--logging', '--host', 'localhost', '--truerun', '--study', u'alexandreSolidMechanicsModel', '--machine_name', 'demonAkantu', '--nproc', '1', '--run_name', u'alexandreSolidMechanicsModel_run']
+
+DEBUG:                                 parseBDParameters:    bdparser.py:480:          env is
+
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export MANDATORY_PATH='/usr/share/gconf/ubuntu.mandatory.path'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_GREETER_DATA_DIR='/var/lib/lightdm-data/alexandre'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GNOME_DESKTOP_SESSION_ID='this-is-deprecated'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export UPSTART_EVENTS='started starting'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export LESSOPEN='| /usr/bin/lesspipe %s'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_SESSION_TYPE='x11'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export QT_IM_MODULE='ibus'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export LOGNAME='alexandre'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export USER='alexandre'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GNOME_KEYRING_CONTROL=''
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_VTNR='7'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export PATH='/home/alexandre/bin:/home/alexandre/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/alexandre/Documents/blackdynamite/scripts'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export DISPLAY=':0'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export LANG='fr_FR.UTF-8'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export TERM='xterm-256color'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export SHELL='/bin/bash'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_SESSION_PATH='/org/freedesktop/DisplayManager/Session0'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XAUTHORITY='/home/alexandre/.Xauthority'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export LANGUAGE='fr_FR'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export COMPIZ_CONFIG_PROFILE='ubuntu'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export SHLVL='1'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export QT_LINUX_ACCESSIBILITY_ALWAYS_ON='1'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export QT_QPA_PLATFORMTHEME='appmenu-qt5'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export QT_ACCESSIBILITY='1'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export UPSTART_INSTANCE=''
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export CLUTTER_IM_MODULE='xim'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export WINDOWID='39845898'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export SESSIONTYPE='gnome-session'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XMODIFIERS='@im=ibus'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GPG_AGENT_INFO='/home/alexandre/.gnupg/S.gpg-agent:0:1'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export HOME='/home/alexandre'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export QT4_IM_MODULE='ibus'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GTK2_MODULES='overlay-scrollbar'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_SESSION_DESKTOP='ubuntu'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_RUNTIME_DIR='/run/user/1000'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export INSTANCE='Unity'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export PYTHONPATH=':/home/alexandre/Documents/blackdynamite/::/home/alexandre/Documents/blackdynamite/BlackDynamite'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export SSH_AUTH_SOCK='/run/user/1000/keyring/ssh'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export VTE_VERSION='4205'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GDMSESSION='ubuntu'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export IM_CONFIG_PHASE='1'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export UPSTART_JOB='unity-settings-daemon'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GNOME_KEYRING_PID=''
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_SEAT_PATH='/org/freedesktop/DisplayManager/Seat0'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export LESSCLOSE='/usr/bin/lesspipe %s %s'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_CURRENT_DESKTOP='Unity'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_SESSION_ID='c2'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export DBUS_SESSION_BUS_ADDRESS='unix:abstract=/tmp/dbus-51zuxnEIUs'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export _='/usr/bin/python'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export DEFAULTS_PATH='/usr/share/gconf/ubuntu.default.path'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GTK_IM_MODULE='ibus'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export DESKTOP_SESSION='ubuntu'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export UPSTART_SESSION='unix:abstract=/com/ubuntu/upstart-session/1000/2921'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_CONFIG_DIRS='/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GTK_MODULES='gail:atk-bridge:unity-gtk-module'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export OLDPWD='/home/alexandre'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export GDM_LANG='fr_FR'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_DATA_DIRS='/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export PWD='/home/alexandre/Bureau/Backend_Akantu_WebApp'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export JOB='gnome-session'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:482:          export XDG_SEAT='seat0'
+
+DEBUG:                                 parseBDParameters:    bdparser.py:484:          constructArgParser
+
+DEBUG:                                constructArgParser:    bdparser.py:371:          in
+DEBUG:                                 addEnvBDArguments:    bdparser.py:457:          in
+DEBUG:                                constructArgParser:    bdparser.py:371:          in
+DEBUG:                                 parseBDParameters:    bdparser.py:487:          parse_known_args
+
+DEBUG:                                 parseBDParameters:    bdparser.py:489:          createParamsMap
+
+DEBUG:                                   createParamsMap:    bdparser.py:238:          in
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 machine_name : demonAkantu
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 machine_name : ['demonAkantu']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 machine_name : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 logging : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 logging : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 logging : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 study : alexandreSolidMechanicsModel
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 study : [u'alexandreSolidMechanicsModel']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 study : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 nproc : 1
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 nproc : ['1']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 nproc : <type 'int'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 job_constraints : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 host : localhost
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 host : ['localhost']
+DEBUG:                               updatePossibleHosts:    bdparser.py:68:          in
+DEBUG:                                 listPossibleHosts:    bdparser.py:30:          in
+DEBUG:                                      readConfFile:    bdparser.py:153:          in
+DEBUG:                                      readConfFile:    bdparser.py:154:          readConfFileList []
+DEBUG:                                      readConfFile:    bdparser.py:173:          loading file '/home/alexandre/.blackdynamite/localhost.bd'
+DEBUG:                                      readConfFile:    bdparser.py:188:          read parameters: '['--logging', '--host', 'localhost', '--truerun', '--study', u'alexandreSolidMechanicsModel', '--machine_name', 'demonAkantu', '--nproc', '1', '--run_name', u'alexandreSolidMechanicsModel_run', '--user', 'alexandre', '--password', 'pw']'
+DEBUG:                                      readConfFile:    bdparser.py:189:          pre args : '{'password': 'pw', 'user': 'alexandre'}'
+DEBUG:                                   createParamsMap:    bdparser.py:238:          in
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 password : pw
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 password : ['pw']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 password : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 user : alexandre
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 user : ['alexandre']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 user : <type 'str'>
+DEBUG:                                      readConfFile:    bdparser.py:194:          out
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 host : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 BDconf : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 binary_operator : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 run_name : alexandreSolidMechanicsModel_run
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 run_name : [u'alexandreSolidMechanicsModel_run']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 run_name : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 truerun : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 truerun : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 truerun : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 yes : False
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 yes : [False]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 yes : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 password : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 list_parameters : False
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 list_parameters : [False]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 list_parameters : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 port : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 constraints : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 user : None
+DEBUG:                                 parseBDParameters:    bdparser.py:491:          addModuleAdmissibleParameters
+
+DEBUG:                    addModulesAdmissibleParameters:    bdparser.py:296:          in
+DEBUG:                    addModulesAdmissibleParameters:    bdparser.py:314:          {'binary_operator': <type 'str'>, 'logging': <type 'bool'>, 'study': <type 'str'>, 'run_name': <type 'str'>, 'port': <type 'int'>, 'host': <type 'str'>, 'machine_name': <type 'str'>, 'user': <type 'str'>, 'nproc': <type 'int'>, 'truerun': <type 'bool'>, 'yes': <type 'bool'>, 'password': <type 'str'>, 'list_parameters': <type 'bool'>, 'BDconf': <type 'list'>, 'constraints': [<type 'str'>]}
+DEBUG:                                 parseBDParameters:    bdparser.py:493:          addModulesAdmissibleParametersForComplete
+
+DEBUG:         addModulesAdmissibleParametersForComplete:    bdparser.py:317:          in
+DEBUG:                                 parseBDParameters:    bdparser.py:499:          constructArgParser
+
+DEBUG:                                constructArgParser:    bdparser.py:371:          in
+DEBUG:                                   createParamsMap:    bdparser.py:238:          in
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 machine_name : demonAkantu
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 machine_name : ['demonAkantu']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 machine_name : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 logging : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 logging : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 logging : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 study : alexandreSolidMechanicsModel
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 study : [u'alexandreSolidMechanicsModel']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 study : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 nproc : 1
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 nproc : ['1']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 nproc : <type 'int'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 job_constraints : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 host : localhost
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 host : ['localhost']
+DEBUG:                               updatePossibleHosts:    bdparser.py:68:          in
+DEBUG:                                 listPossibleHosts:    bdparser.py:30:          in
+DEBUG:                                      readConfFile:    bdparser.py:153:          in
+DEBUG:                                      readConfFile:    bdparser.py:154:          readConfFileList ['localhost.bd']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 host : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 BDconf : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 binary_operator : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 run_name : alexandreSolidMechanicsModel_run
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 run_name : [u'alexandreSolidMechanicsModel_run']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 run_name : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 truerun : True
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 truerun : [True]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 truerun : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 yes : False
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 yes : [False]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 yes : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 password : pw
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 password : ['pw']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 password : <type 'str'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 list_parameters : False
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 list_parameters : [False]
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 list_parameters : <type 'bool'>
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 port : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 constraints : None
+DEBUG:                                   createParamsMap:    bdparser.py:245:          createParamsMap1 user : alexandre
+DEBUG:                                   createParamsMap:    bdparser.py:252:          createParamsMap2 user : ['alexandre']
+DEBUG:                                   createParamsMap:    bdparser.py:269:          createParamsMap3 user : <type 'str'>
+INFO:                                          __init__:        base.py:363:          {'machine_name': 'demonAkantu', 'logging': True, 'study': 'alexandreSolidMechanicsModel', 'run_name': 'alexandreSolidMechanicsModel_run', 'host': 'localhost', 'user': 'alexandre', 'nproc': 1, 'yes': False, 'password': 'pw', 'list_parameters': False}
+DEBUG:                                      filterParams:    bdparser.py:606:          in
+INFO:                                          __init__:        base.py:366:          localhost
+DEBUG:                                          __init__:        base.py:371:          connection arguments: {'host': 'localhost', 'password': 'pw', 'user': 'alexandre', 'dbname': 'blackdynamite'}
+DEBUG:                                          __init__:        base.py:374:          connected to base
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['#!/bin/env python \nimport BlackDynamite as BD \nimport re,os\nmyrun, myjob = BD.getRunFromScript() \nfile = open("material.dat", "r")\nlines = file.readlines()\nfile.close()\nin_material=False\nind=0\nfor line in lines:\n  m=re.search(\'steel\',line)\n  if m is not None:\n    in_material=True\n  m=re.search(\'E=\',line)\n  if m is not None and in_material == True:\n    lines[ind]=\'E=\' + str(myjob.material_steel_e) + \'\\n\'\n    in_material=False \n  ind = ind+1\nfile = open("material.dat", "w+")\nfile.writelines(lines)\nfile.close()\nmyrun.start()\nmyrun.finish()\n', 'config.py']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                                            select:    selector.py:86:          ['#!/bin/env python \nimport BlackDynamite as BD \nimport re,os\nmyrun, myjob = BD.getRunFromScript() \nfile = open("material.dat", "r")\nlines = file.readlines()\nfile.close()\nin_material=False\nind=0\nfor line in lines:\n  m=re.search(\'steel\',line)\n  if m is not None:\n    in_material=True\n  m=re.search(\'E=\',line)\n  if m is not None and in_material == True:\n    lines[ind]=\'E=\' + str(myjob.material_steel_e) + \'\\n\'\n    in_material=False \n  ind = ind+1\nfile = open("material.dat", "w+")\nfile.writelines(lines)\nfile.close()\nmyrun.start()\nmyrun.finish()\n', 'config.py']
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.conffile.ConfFile'>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['#!/bin/env python \nimport BlackDynamite as BD \nimport re,os\nmyrun, myjob = BD.getRunFromScript() \nfile = open("material.dat", "r")\nlines = file.readlines()\nfile.close()\nin_material=False\nind=0\nfor line in lines:\n  m=re.search(\'steel\',line)\n  if m is not None:\n    in_material=True\n  m=re.search(\'E=\',line)\n  if m is not None and in_material == True:\n    lines[ind]=\'E=\' + str(myjob.material_steel_e) + \'\\n\'\n    in_material=False \n  ind = ind+1\nfile = open("material.dat", "w+")\nfile.writelines(lines)\nfile.close()\nmyrun.start()\nmyrun.finish()\n']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s)
+DEBUG:                                            select:    selector.py:86:          ['#!/bin/env python \nimport BlackDynamite as BD \nimport re,os\nmyrun, myjob = BD.getRunFromScript() \nfile = open("material.dat", "r")\nlines = file.readlines()\nfile.close()\nin_material=False\nind=0\nfor line in lines:\n  m=re.search(\'steel\',line)\n  if m is not None:\n    in_material=True\n  m=re.search(\'E=\',line)\n  if m is not None and in_material == True:\n    lines[ind]=\'E=\' + str(myjob.material_steel_e) + \'\\n\'\n    in_material=False \n  ind = ind+1\nfile = open("material.dat", "w+")\nfile.writelines(lines)\nfile.close()\nmyrun.start()\nmyrun.finish()\n']
+DEBUG:                                         buildList:    selector.py:25:          [<BlackDynamite.conffile.ConfFile object at 0x7f0bad1dd650>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['material elastic [ \nname=steel\nnu=0.0\nE=1.0\nrho=1\n]', 'material.dat']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                                            select:    selector.py:86:          ['material elastic [ \nname=steel\nnu=0.0\nE=1.0\nrho=1\n]', 'material.dat']
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.conffile.ConfFile'>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['material elastic [ \nname=steel\nnu=0.0\nE=1.0\nrho=1\n]']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s)
+DEBUG:                                            select:    selector.py:86:          ['material elastic [ \nname=steel\nnu=0.0\nE=1.0\nrho=1\n]']
+DEBUG:                                         buildList:    selector.py:25:          [<BlackDynamite.conffile.ConfFile object at 0x7f0bad1dd750>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['// Mesh size\nh  = 0.05;\n\nh1 = h;\nh2 = h;\n\n// Dimensions of the bar\nLx = 10;\nLy = 1;\n\n// ------------------------------------------\n// Geometry\n// ------------------------------------------\n\nPoint(101) = { 0.0, -Ly/2, 0.0, h1};\nPoint(102) = { Lx,  -Ly/2, 0.0, h2};\n\nPoint(103) = { Lx,  0., 0.0,  h2};\nPoint(104) = { Lx,  Ly/2., 0.0,  h2};\n\nPoint(105) = { 0.0, Ly/2., 0.0,  h1};\nPoint(106) = { 0.0, 0., 0.0,  h1};\n\nLine(101) = {101,102};\nLine(102) = {102,103};\nLine(103) = {103,104};\nLine(104) = {104,105};\nLine(105) = {105,106};\nLine(106) = {106,101};\nLine(107) = {106,103};\n\n\nLine Loop(108) = {101, 102, -107, 106};\nPlane Surface(109) = {108};\nLine Loop(110) = {103, 104, 105, 107};\nPlane Surface(111) = {110};\nPhysical Surface(112) = {109, 111};\n\nTransfinite Surface "*";\nRecombine Surface "*";\nPhysical Surface(113) = {111, 109};\n\nPhysical Line("XBlocked") = {103, 102};\nPhysical Line("ImposedVelocity") = {105, 106};\nPhysical Line("YBlocked") = {104, 101};\n', 'bar.geo']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                                            select:    selector.py:86:          ['// Mesh size\nh  = 0.05;\n\nh1 = h;\nh2 = h;\n\n// Dimensions of the bar\nLx = 10;\nLy = 1;\n\n// ------------------------------------------\n// Geometry\n// ------------------------------------------\n\nPoint(101) = { 0.0, -Ly/2, 0.0, h1};\nPoint(102) = { Lx,  -Ly/2, 0.0, h2};\n\nPoint(103) = { Lx,  0., 0.0,  h2};\nPoint(104) = { Lx,  Ly/2., 0.0,  h2};\n\nPoint(105) = { 0.0, Ly/2., 0.0,  h1};\nPoint(106) = { 0.0, 0., 0.0,  h1};\n\nLine(101) = {101,102};\nLine(102) = {102,103};\nLine(103) = {103,104};\nLine(104) = {104,105};\nLine(105) = {105,106};\nLine(106) = {106,101};\nLine(107) = {106,103};\n\n\nLine Loop(108) = {101, 102, -107, 106};\nPlane Surface(109) = {108};\nLine Loop(110) = {103, 104, 105, 107};\nPlane Surface(111) = {110};\nPhysical Surface(112) = {109, 111};\n\nTransfinite Surface "*";\nRecombine Surface "*";\nPhysical Surface(113) = {111, 109};\n\nPhysical Line("XBlocked") = {103, 102};\nPhysical Line("ImposedVelocity") = {105, 106};\nPhysical Line("YBlocked") = {104, 101};\n', 'bar.geo']
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.conffile.ConfFile'>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['// Mesh size\nh  = 0.05;\n\nh1 = h;\nh2 = h;\n\n// Dimensions of the bar\nLx = 10;\nLy = 1;\n\n// ------------------------------------------\n// Geometry\n// ------------------------------------------\n\nPoint(101) = { 0.0, -Ly/2, 0.0, h1};\nPoint(102) = { Lx,  -Ly/2, 0.0, h2};\n\nPoint(103) = { Lx,  0., 0.0,  h2};\nPoint(104) = { Lx,  Ly/2., 0.0,  h2};\n\nPoint(105) = { 0.0, Ly/2., 0.0,  h1};\nPoint(106) = { 0.0, 0., 0.0,  h1};\n\nLine(101) = {101,102};\nLine(102) = {102,103};\nLine(103) = {103,104};\nLine(104) = {104,105};\nLine(105) = {105,106};\nLine(106) = {106,101};\nLine(107) = {106,103};\n\n\nLine Loop(108) = {101, 102, -107, 106};\nPlane Surface(109) = {108};\nLine Loop(110) = {103, 104, 105, 107};\nPlane Surface(111) = {110};\nPhysical Surface(112) = {109, 111};\n\nTransfinite Surface "*";\nRecombine Surface "*";\nPhysical Surface(113) = {111, 109};\n\nPhysical Line("XBlocked") = {103, 102};\nPhysical Line("ImposedVelocity") = {105, 106};\nPhysical Line("YBlocked") = {104, 101};\n']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s)
+DEBUG:                                            select:    selector.py:86:          ['// Mesh size\nh  = 0.05;\n\nh1 = h;\nh2 = h;\n\n// Dimensions of the bar\nLx = 10;\nLy = 1;\n\n// ------------------------------------------\n// Geometry\n// ------------------------------------------\n\nPoint(101) = { 0.0, -Ly/2, 0.0, h1};\nPoint(102) = { Lx,  -Ly/2, 0.0, h2};\n\nPoint(103) = { Lx,  0., 0.0,  h2};\nPoint(104) = { Lx,  Ly/2., 0.0,  h2};\n\nPoint(105) = { 0.0, Ly/2., 0.0,  h1};\nPoint(106) = { 0.0, 0., 0.0,  h1};\n\nLine(101) = {101,102};\nLine(102) = {102,103};\nLine(103) = {103,104};\nLine(104) = {104,105};\nLine(105) = {105,106};\nLine(106) = {106,101};\nLine(107) = {106,103};\n\n\nLine Loop(108) = {101, 102, -107, 106};\nPlane Surface(109) = {108};\nLine Loop(110) = {103, 104, 105, 107};\nPlane Surface(111) = {110};\nPhysical Surface(112) = {109, 111};\n\nTransfinite Surface "*";\nRecombine Surface "*";\nPhysical Surface(113) = {111, 109};\n\nPhysical Line("XBlocked") = {103, 102};\nPhysical Line("ImposedVelocity") = {105, 106};\nPhysical Line("YBlocked") = {104, 101};\n']
+DEBUG:                                         buildList:    selector.py:25:          [<BlackDynamite.conffile.ConfFile object at 0x7f0bad1d3390>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['#!/usr/bin/env python3\n\nfrom __future__ import print_function\n################################################################\nimport os\nimport subprocess\nimport numpy as np\nimport akantu\n################################################################\n# Functors to describe boundary conditions\n################################################################\n\n\nclass FixedValue:\n\tdef __init__(self, value, axis):\n\t\tself.value = value\n\t\tself.axis = axis\n\tdef operator(self, node, flags, disp, coord):\n\t  # sets the displacement to the desired value in the desired axis\n\t  disp[self.axis] = self.value\n\t  # sets the blocked dofs vector to true in the desired axis\n\t  flags[self.axis] = True\n################################################################\n\n\ndef main():\n\n  spatial_dimension = 2\n\n  akantu.parseInput(\'material.dat\')\n\n  mesh_file = \'bar.msh\' \n  geo_file = \'bar.geo\' \n\n  # if mesh was not created the calls gmsh to generate it\n  if not os.path.isfile(mesh_file):\n    ret = subprocess.call(\n      \'gmsh -2 {} {}\'.format(geo_file, mesh_file), shell=True)\n    if ret != 0:\n      raise Exception(\n        \'execution of GMSH failed: do you have it installed ?\')\n\n  ################################################################\n  # Initialization\n  ################################################################\n  mesh = akantu.Mesh(spatial_dimension)\n  mesh.read(mesh_file)\n\n  model = akantu.SolidMechanicsModel(mesh)\n\n  model.initFull(_analysis_method = akantu._explicit_lumped_mass)\n\n  ################################################################\n  # boundary conditions\n  ################################################################\n  model.applyDirichletBC(FixedValue(0.0, akantu._x), "XBlocked")\n  model.applyDirichletBC(FixedValue(0.0, akantu._y), "YBlocked")\n\n  ################################################################\n  # initial conditions\n  ################################################################\n  displacement = model.getDisplacement()\n  nb_nodes = mesh.getNbNodes()\n  position = mesh.getNodes()\n  \n  pulse_width = 1\n  A = 0.01\n  for i in range(0, nb_nodes):\n    # Sinus * Gaussian\n    x = position[i, 0] - 5.\n    L = pulse_width\n    k = 0.1 * 2 * np.pi * 3 / L\n    displacement[i, 0] = A * \\\n        np.sin(k * x) * np.exp(-(k * x) * (k * x) / (L * L))\n  ################################################################\n  # timestep value computation\n  ################################################################\n  end_step = 1000\n  time_step = 0.025\n\n  model.setTimeStep(time_step)\n\n  ################################################################\n  # vizualisation\n  ################################################################\n  model.setBaseName("waves")\n  model.addDumpFieldVector("displacement")\n  model.addDumpFieldVector("acceleration")\n  model.addDumpFieldVector("velocity")\n  model.addDumpFieldVector("internal_force")\n  model.addDumpFieldVector("external_force")\n  model.addDumpField("strain")\n  model.addDumpField("stress")\n  model.addDumpField("blocked_dofs")\n\n  ################################################################\n  # loop for evolution of motion dynamics\n  ################################################################\n  model.assembleInternalForces()\n\n  for step in range(0, end_step + 1):\n    print(\'{}/{}\'.format(step,end_step))\n    model.solveStep()\n\n    if step % 10 == 0:\n      model.dump()\n\n    epot = model.getEnergy(\'potential\')\n    ekin = model.getEnergy(\'kinetic\')\n\n  return\n\n\n################################################################\nif __name__ == "__main__":\n  main()\n', 'simulation.py']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                                            select:    selector.py:86:          ['#!/usr/bin/env python3\n\nfrom __future__ import print_function\n################################################################\nimport os\nimport subprocess\nimport numpy as np\nimport akantu\n################################################################\n# Functors to describe boundary conditions\n################################################################\n\n\nclass FixedValue:\n\tdef __init__(self, value, axis):\n\t\tself.value = value\n\t\tself.axis = axis\n\tdef operator(self, node, flags, disp, coord):\n\t  # sets the displacement to the desired value in the desired axis\n\t  disp[self.axis] = self.value\n\t  # sets the blocked dofs vector to true in the desired axis\n\t  flags[self.axis] = True\n################################################################\n\n\ndef main():\n\n  spatial_dimension = 2\n\n  akantu.parseInput(\'material.dat\')\n\n  mesh_file = \'bar.msh\' \n  geo_file = \'bar.geo\' \n\n  # if mesh was not created the calls gmsh to generate it\n  if not os.path.isfile(mesh_file):\n    ret = subprocess.call(\n      \'gmsh -2 {} {}\'.format(geo_file, mesh_file), shell=True)\n    if ret != 0:\n      raise Exception(\n        \'execution of GMSH failed: do you have it installed ?\')\n\n  ################################################################\n  # Initialization\n  ################################################################\n  mesh = akantu.Mesh(spatial_dimension)\n  mesh.read(mesh_file)\n\n  model = akantu.SolidMechanicsModel(mesh)\n\n  model.initFull(_analysis_method = akantu._explicit_lumped_mass)\n\n  ################################################################\n  # boundary conditions\n  ################################################################\n  model.applyDirichletBC(FixedValue(0.0, akantu._x), "XBlocked")\n  model.applyDirichletBC(FixedValue(0.0, akantu._y), "YBlocked")\n\n  ################################################################\n  # initial conditions\n  ################################################################\n  displacement = model.getDisplacement()\n  nb_nodes = mesh.getNbNodes()\n  position = mesh.getNodes()\n  \n  pulse_width = 1\n  A = 0.01\n  for i in range(0, nb_nodes):\n    # Sinus * Gaussian\n    x = position[i, 0] - 5.\n    L = pulse_width\n    k = 0.1 * 2 * np.pi * 3 / L\n    displacement[i, 0] = A * \\\n        np.sin(k * x) * np.exp(-(k * x) * (k * x) / (L * L))\n  ################################################################\n  # timestep value computation\n  ################################################################\n  end_step = 1000\n  time_step = 0.025\n\n  model.setTimeStep(time_step)\n\n  ################################################################\n  # vizualisation\n  ################################################################\n  model.setBaseName("waves")\n  model.addDumpFieldVector("displacement")\n  model.addDumpFieldVector("acceleration")\n  model.addDumpFieldVector("velocity")\n  model.addDumpFieldVector("internal_force")\n  model.addDumpFieldVector("external_force")\n  model.addDumpField("strain")\n  model.addDumpField("stress")\n  model.addDumpField("blocked_dofs")\n\n  ################################################################\n  # loop for evolution of motion dynamics\n  ################################################################\n  model.assembleInternalForces()\n\n  for step in range(0, end_step + 1):\n    print(\'{}/{}\'.format(step,end_step))\n    model.solveStep()\n\n    if step % 10 == 0:\n      model.dump()\n\n    epot = model.getEnergy(\'potential\')\n    ekin = model.getEnergy(\'kinetic\')\n\n  return\n\n\n################################################################\nif __name__ == "__main__":\n  main()\n', 'simulation.py']
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.conffile.ConfFile'>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['#!/usr/bin/env python3\n\nfrom __future__ import print_function\n################################################################\nimport os\nimport subprocess\nimport numpy as np\nimport akantu\n################################################################\n# Functors to describe boundary conditions\n################################################################\n\n\nclass FixedValue:\n\tdef __init__(self, value, axis):\n\t\tself.value = value\n\t\tself.axis = axis\n\tdef operator(self, node, flags, disp, coord):\n\t  # sets the displacement to the desired value in the desired axis\n\t  disp[self.axis] = self.value\n\t  # sets the blocked dofs vector to true in the desired axis\n\t  flags[self.axis] = True\n################################################################\n\n\ndef main():\n\n  spatial_dimension = 2\n\n  akantu.parseInput(\'material.dat\')\n\n  mesh_file = \'bar.msh\' \n  geo_file = \'bar.geo\' \n\n  # if mesh was not created the calls gmsh to generate it\n  if not os.path.isfile(mesh_file):\n    ret = subprocess.call(\n      \'gmsh -2 {} {}\'.format(geo_file, mesh_file), shell=True)\n    if ret != 0:\n      raise Exception(\n        \'execution of GMSH failed: do you have it installed ?\')\n\n  ################################################################\n  # Initialization\n  ################################################################\n  mesh = akantu.Mesh(spatial_dimension)\n  mesh.read(mesh_file)\n\n  model = akantu.SolidMechanicsModel(mesh)\n\n  model.initFull(_analysis_method = akantu._explicit_lumped_mass)\n\n  ################################################################\n  # boundary conditions\n  ################################################################\n  model.applyDirichletBC(FixedValue(0.0, akantu._x), "XBlocked")\n  model.applyDirichletBC(FixedValue(0.0, akantu._y), "YBlocked")\n\n  ################################################################\n  # initial conditions\n  ################################################################\n  displacement = model.getDisplacement()\n  nb_nodes = mesh.getNbNodes()\n  position = mesh.getNodes()\n  \n  pulse_width = 1\n  A = 0.01\n  for i in range(0, nb_nodes):\n    # Sinus * Gaussian\n    x = position[i, 0] - 5.\n    L = pulse_width\n    k = 0.1 * 2 * np.pi * 3 / L\n    displacement[i, 0] = A * \\\n        np.sin(k * x) * np.exp(-(k * x) * (k * x) / (L * L))\n  ################################################################\n  # timestep value computation\n  ################################################################\n  end_step = 1000\n  time_step = 0.025\n\n  model.setTimeStep(time_step)\n\n  ################################################################\n  # vizualisation\n  ################################################################\n  model.setBaseName("waves")\n  model.addDumpFieldVector("displacement")\n  model.addDumpFieldVector("acceleration")\n  model.addDumpFieldVector("velocity")\n  model.addDumpFieldVector("internal_force")\n  model.addDumpFieldVector("external_force")\n  model.addDumpField("strain")\n  model.addDumpField("stress")\n  model.addDumpField("blocked_dofs")\n\n  ################################################################\n  # loop for evolution of motion dynamics\n  ################################################################\n  model.assembleInternalForces()\n\n  for step in range(0, end_step + 1):\n    print(\'{}/{}\'.format(step,end_step))\n    model.solveStep()\n\n    if step % 10 == 0:\n      model.dump()\n\n    epot = model.getEnergy(\'potential\')\n    ekin = model.getEnergy(\'kinetic\')\n\n  return\n\n\n################################################################\nif __name__ == "__main__":\n  main()\n']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s)
+DEBUG:                                            select:    selector.py:86:          ['#!/usr/bin/env python3\n\nfrom __future__ import print_function\n################################################################\nimport os\nimport subprocess\nimport numpy as np\nimport akantu\n################################################################\n# Functors to describe boundary conditions\n################################################################\n\n\nclass FixedValue:\n\tdef __init__(self, value, axis):\n\t\tself.value = value\n\t\tself.axis = axis\n\tdef operator(self, node, flags, disp, coord):\n\t  # sets the displacement to the desired value in the desired axis\n\t  disp[self.axis] = self.value\n\t  # sets the blocked dofs vector to true in the desired axis\n\t  flags[self.axis] = True\n################################################################\n\n\ndef main():\n\n  spatial_dimension = 2\n\n  akantu.parseInput(\'material.dat\')\n\n  mesh_file = \'bar.msh\' \n  geo_file = \'bar.geo\' \n\n  # if mesh was not created the calls gmsh to generate it\n  if not os.path.isfile(mesh_file):\n    ret = subprocess.call(\n      \'gmsh -2 {} {}\'.format(geo_file, mesh_file), shell=True)\n    if ret != 0:\n      raise Exception(\n        \'execution of GMSH failed: do you have it installed ?\')\n\n  ################################################################\n  # Initialization\n  ################################################################\n  mesh = akantu.Mesh(spatial_dimension)\n  mesh.read(mesh_file)\n\n  model = akantu.SolidMechanicsModel(mesh)\n\n  model.initFull(_analysis_method = akantu._explicit_lumped_mass)\n\n  ################################################################\n  # boundary conditions\n  ################################################################\n  model.applyDirichletBC(FixedValue(0.0, akantu._x), "XBlocked")\n  model.applyDirichletBC(FixedValue(0.0, akantu._y), "YBlocked")\n\n  ################################################################\n  # initial conditions\n  ################################################################\n  displacement = model.getDisplacement()\n  nb_nodes = mesh.getNbNodes()\n  position = mesh.getNodes()\n  \n  pulse_width = 1\n  A = 0.01\n  for i in range(0, nb_nodes):\n    # Sinus * Gaussian\n    x = position[i, 0] - 5.\n    L = pulse_width\n    k = 0.1 * 2 * np.pi * 3 / L\n    displacement[i, 0] = A * \\\n        np.sin(k * x) * np.exp(-(k * x) * (k * x) / (L * L))\n  ################################################################\n  # timestep value computation\n  ################################################################\n  end_step = 1000\n  time_step = 0.025\n\n  model.setTimeStep(time_step)\n\n  ################################################################\n  # vizualisation\n  ################################################################\n  model.setBaseName("waves")\n  model.addDumpFieldVector("displacement")\n  model.addDumpFieldVector("acceleration")\n  model.addDumpFieldVector("velocity")\n  model.addDumpFieldVector("internal_force")\n  model.addDumpFieldVector("external_force")\n  model.addDumpField("strain")\n  model.addDumpField("stress")\n  model.addDumpField("blocked_dofs")\n\n  ################################################################\n  # loop for evolution of motion dynamics\n  ################################################################\n  model.assembleInternalForces()\n\n  for step in range(0, end_step + 1):\n    print(\'{}/{}\'.format(step,end_step))\n    model.solveStep()\n\n    if step % 10 == 0:\n      model.dump()\n\n    epot = model.getEnergy(\'potential\')\n    ekin = model.getEnergy(\'kinetic\')\n\n  return\n\n\n################################################################\nif __name__ == "__main__":\n  main()\n']
+DEBUG:                                         buildList:    selector.py:25:          [<BlackDynamite.conffile.ConfFile object at 0x7f0bad1d31d0>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['python ./config.py\npython3 ./simulation.py', 'exec.sh']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s) and (configfiles.filename = %s)
+DEBUG:                                            select:    selector.py:86:          ['python ./config.py\npython3 ./simulation.py', 'exec.sh']
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.conffile.ConfFile'>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          (configfiles.file = %s)
+DEBUG:                              getMatchingCondition: constraints.py:93:          ['python ./config.py\npython3 ./simulation.py']
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.configfiles WHERE (configfiles.file = %s)
+DEBUG:                                            select:    selector.py:86:          ['python ./config.py\npython3 ./simulation.py']
+DEBUG:                                         buildList:    selector.py:25:          [<BlackDynamite.conffile.ConfFile object at 0x7f0bad1dd7d0>]
+DEBUG:                              getMatchingCondition: constraints.py:92:          
+DEBUG:                              getMatchingCondition: constraints.py:93:          []
+DEBUG:                                            select:    selector.py:85:          SELECT * FROM alexandre_alexandreSolidMechanicsModel.jobs
+DEBUG:                                            select:    selector.py:86:          []
+DEBUG:                                         buildList:    selector.py:25:          [<class 'BlackDynamite.job.Job'>]
+DEBUG:                                         buildList:    selector.py:45:          [<BlackDynamite.job.Job object at 0x7f0bacf78650>]
+DEBUG:                                         buildList:    selector.py:49:          ('id', 1)
+DEBUG:                                         buildList:    selector.py:49:          ('username', 'alexandre')
+DEBUG:                                         buildList:    selector.py:49:          ('dim', 2)
+DEBUG:                                         buildList:    selector.py:49:          ('modeltype', 'SolidMechanicsModel')
+DEBUG:                                         buildList:    selector.py:49:          ('material_steel_e', 1.0)
+DEBUG:                                         buildList:    selector.py:45:          [<BlackDynamite.job.Job object at 0x7f0bacf78650>]
+DEBUG:                                         buildList:    selector.py:49:          ('id', 2)
+DEBUG:                                         buildList:    selector.py:49:          ('username', 'alexandre')
+DEBUG:                                         buildList:    selector.py:49:          ('dim', 2)
+DEBUG:                                         buildList:    selector.py:49:          ('modeltype', 'SolidMechanicsModel')
+DEBUG:                                         buildList:    selector.py:49:          ('material_steel_e', 1.5)
+DEBUG:                                         buildList:    selector.py:45:          [<BlackDynamite.job.Job object at 0x7f0bacf78650>]
+DEBUG:                                         buildList:    selector.py:49:          ('id', 3)
+DEBUG:                                         buildList:    selector.py:49:          ('username', 'alexandre')
+DEBUG:                                         buildList:    selector.py:49:          ('dim', 2)
+DEBUG:                                         buildList:    selector.py:49:          ('modeltype', 'SolidMechanicsModel')
+DEBUG:                                         buildList:    selector.py:49:          ('material_steel_e', 2.0)
+DEBUG:                                         buildList:    selector.py:45:          [<BlackDynamite.job.Job object at 0x7f0bacf78650>]
+DEBUG:                                         buildList:    selector.py:49:          ('id', 4)
+DEBUG:                                         buildList:    selector.py:49:          ('username', 'alexandre')
+DEBUG:                                         buildList:    selector.py:49:          ('dim', 2)
+DEBUG:                                         buildList:    selector.py:49:          ('modeltype', 'SolidMechanicsModel')
+DEBUG:                                         buildList:    selector.py:49:          ('material_steel_e', 2.5)
+DEBUG:                                         buildList:    selector.py:45:          [<BlackDynamite.job.Job object at 0x7f0bacf78650>]
+DEBUG:                                         buildList:    selector.py:49:          ('id', 5)
+DEBUG:                                         buildList:    selector.py:49:          ('username', 'alexandre')
+DEBUG:                                         buildList:    selector.py:49:          ('dim', 2)
+DEBUG:                                         buildList:    selector.py:49:          ('modeltype', 'SolidMechanicsModel')
+DEBUG:                                         buildList:    selector.py:49:          ('material_steel_e', 3.0)
+DEBUG:                                         buildList:    selector.py:45:          [<BlackDynamite.job.Job object at 0x7f0bacf78650>]
+DEBUG:                                         buildList:    selector.py:49:          ('id', 6)
+DEBUG:                                         buildList:    selector.py:49:          ('username', 'alexandre')
+DEBUG:                                         buildList:    selector.py:49:          ('dim', 2)
+DEBUG:                                         buildList:    selector.py:49:          ('modeltype', 'SolidMechanicsModel')
+DEBUG:                                         buildList:    selector.py:49:          ('material_steel_e', 3.5)
+DEBUG:                                            commit:        base.py:242:          commiting changes to base
